@@ -1,0 +1,24 @@
+.albums {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 50vw;
+
+  padding: 12px;
+  margin-bottom: 24px;
+
+  border: 2px solid #b9caca;
+  border-radius: 8px;
+}
+
+.albums__list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 6px;
+
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
